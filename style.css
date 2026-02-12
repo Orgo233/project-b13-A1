@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -20,9 +24,99 @@ nav .naav a{
     font-size: 16px;
     font-weight: 500;
 }
-nav .btn{
+.btn{
     border: none;
     background-color: #469165;
     color: #FFFFFF;
     padding: 12.5px 16px;
+    font-size: 14px;
+}
+.banner{
+    background: url("assets/hero-bg.png");
+    height: 674px;
+    max-width: 1600px;
+    background-repeat: no-repeat; 
+}
+.banner-heading{
+    padding-top: 115px;
+    margin: 0px auto;
+    text-align: center;
+    max-width: 1360px;
+}
+.button-early button{
+    color: #469165;
+    border: none;
+    border-radius: 1000px;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.not-just-note h1{
+    color: #FFFFFF;
+    font-size: 72px;
+    font-weight: 700;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.banner-pra p{
+    font-size: 15px;
+    color: #FFFFFF;
+    line-height: 24px;
+    padding-bottom: 32px;
+}
+.banner-button button{
+    margin-right: 16px;
+}
+.note-head h2{ 
+    color: #001931;
+    padding-top: 35px;
+    padding-bottom: 16px;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.note-head p{ 
+    color: #627382;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 44px;
+}
+.note-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    max-width: 1360px;
+    margin: 0 auto;
+    
+}
+.box{
+    box-shadow: 0 0px 8px 0 #0000000F;
+    width: 322px;
+}
+.note-box .box img{
+    width: 20px;
+    background-color: #f95555; /* Set your desired background color */
+    padding: 8px;
+    border-radius: 50%;
+    margin-top: 70px;
+    margin-left: 131px;
+
+    /* Optional: adjust padding as needed */
+    /* Other styling like width, height, etc. */
+}
+.note-box .box h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    text-align: center;
+}
+.note-box .box P{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    max-width: 274px;
+    text-align: center;
+    padding-bottom: 25px;
+    margin-left: 24px;
 }
