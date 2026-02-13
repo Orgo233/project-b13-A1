@@ -112,6 +112,8 @@ nav .naav a{
     font-weight: 600;
     color: #001931;
     text-align: center;
+    max-width: 274px;
+    margin: 0 auto;
 }
 .note-box .box P{
     font-size: 16px;
