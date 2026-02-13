@@ -120,3 +120,45 @@ nav .naav a{
     padding-bottom: 25px;
     margin-left: 24px;
 }
+.solution{
+    display: flex;
+    gap: 60px;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.solution .text-main{
+    padding-top: 102px;
+}
+.text-main .pragraph{
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+.text-main h3{
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    padding-bottom: 16px;
+}
+.text-main .pragrr{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    padding-bottom: 40px;
+}
+.checkbox {
+    align-items: center;
+}
+
+.checkbox{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    padding-bottom: 16px;
+}
+.checkbox p{
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+}
