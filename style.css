@@ -32,10 +32,12 @@ nav .naav a{
     font-size: 14px;
 }
 .banner{
-    background: url("assets/hero-bg.png");
+    background-image: url(assets/hero-bg.png);
+    /* background: url("assets/hero-bg.png"); */
     height: 674px;
     max-width: 1600px;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
+    margin: 0px auto; 
 }
 .banner-heading{
     padding-top: 115px;
@@ -192,4 +194,26 @@ nav .naav a{
     font-size: 16px;
     font-weight: 600;
     color: #FFFFFF;
+}
+footer{
+    background-color: #001931;
+}
+.footeer{
+    max-width: 1360px;
+    margin: 0 auto;
+    
+    padding-top: 120px;
+}
+.footer-logo{
+    display: flex;
+    gap: 1000px;
+    align-items: center;
+    padding-bottom: 80px;
+}
+.footer-logo-fb h4{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 16px;
+    
 }
