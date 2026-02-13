@@ -162,3 +162,34 @@ nav .naav a{
     font-size: 16px;
     font-weight: 500;
 }
+.ready-diiv{
+    
+    text-align: center;
+}
+.ready-textarea{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin: 120px auto;
+    background-color: #F7F6F2;
+    max-width: 1360px;
+}
+.ready-button{
+    text-align: center;
+}
+.ready-textarea h2{
+    color:#001931;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+.ready-pra p{
+    font-size: 16px;
+    color: #627382;
+    font-weight: 400;
+    padding-bottom: 24px;
+}
+#bottonn{
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
