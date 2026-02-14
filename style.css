@@ -30,6 +30,14 @@ nav .naav a{
     color: #FFFFFF;
     padding: 12.5px 16px;
     font-size: 14px;
+    margin: 0 auto;
+    
+}
+.btn:hover {
+      /* Text color jeta ache shetai thakbe */
+}
+.btn p{
+    font-size: 16px;
 }
 .banner{
     background-image: url(assets/hero-bg.png);
@@ -53,6 +61,10 @@ nav .naav a{
     font-size: 14px;
     font-weight: 500;
 }
+.banner-button{
+    max-width: 465px;
+    margin: 0 auto;
+}
 .not-just-note h1{
     color: #FFFFFF;
     font-size: 72px;
@@ -61,14 +73,15 @@ nav .naav a{
     padding-bottom: 16px;
 }
 .banner-pra p{
-    font-size: 15px;
+    font-size: 18px;
+    font-weight: 400;
     color: #FFFFFF;
     line-height: 24px;
     padding-bottom: 32px;
 }
-.banner-button button{
+/* .banner-button button{
     margin-right: 16px;
-}
+} */
 .note-head h2{ 
     color: #001931;
     padding-top: 35px;
@@ -97,9 +110,10 @@ nav .naav a{
     width: 322px;
 }
 .note-box .box img{
-    width: 20px;
-    background-color: #f95555; /* Set your desired background color */
-    padding: 8px;
+    width: 32px;
+    background-color: #f95555;
+    background-size: 60px; /* Set your desired background color */
+    padding: 14px;
     border-radius: 50%;
     margin-top: 70px;
     margin-left: 131px;
@@ -114,6 +128,8 @@ nav .naav a{
     text-align: center;
     max-width: 274px;
     margin: 0 auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 .note-box .box P{
     font-size: 16px;
@@ -203,7 +219,6 @@ footer{
 .footeer{
     max-width: 1360px;
     margin: 0 auto;
-    
     padding-top: 120px;
 }
 .footer-logo{
@@ -216,6 +231,5 @@ footer{
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 500;
-    padding-bottom: 16px;
-    
+    padding-bottom: 16px; 
 }
