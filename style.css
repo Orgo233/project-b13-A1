@@ -130,6 +130,9 @@ button:hover {
     /* Optional: adjust padding as needed */
     /* Other styling like width, height, etc. */
 }
+.box:hover{
+    background: rgba(113, 112, 112, 0.498);
+}
 .note-box .box h3{
     font-size: 24px;
     font-weight: 600;
